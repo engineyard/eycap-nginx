@@ -1,9 +1,9 @@
-name              "nginx-tlq"
-maintainer        "Ben Dixon"
-maintainer_email  "ben@talkingquickly.co.uk"
+name              "eycap-nginx"
+maintainer        "Ben Dixon, Tyler Bird"
+maintainer_email  "ben@talkingquickly.co.uk, tbird@engineyard.com"
 description       "Installs the nginx web server from the nginx ppa"
 version           "0.0.4"
 
-recipe "nginx-tlq", "nginx server"
+recipe "eycap-nginx", "nginx server"
 
 supports "ubuntu"
